@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+	background: rgb(0, 0, 0);
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-weight: 250;
+}
+
+h2 {
+	font-style: italic;
+	color: blue;
+}
+
+p {
+	text-align: center;
+	color: blue;
+	color: rgb(15, 255, 80);
+}
+
+abbr {
+	font-style: italic;
+	font-weight: 100;
+}
