@@ -21,10 +21,33 @@ h3 {
 }
 
 p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40em;
 	text-align: center;
 	color: white;
 }
 
 abbr {
 	font-style: italic;
+}
+
+/* unvisited link */
+a:link {
+	color: red;
+}
+
+/* visited link */
+a:visited {
+	color: rgb(0, 67, 255);
+}
+
+/* mouse over link */
+a:hover {
+	color: rgb(0, 67, 255);
+}
+
+/* selected link */
+a:active {
+	color: rgb(0, 67, 255);
 }
