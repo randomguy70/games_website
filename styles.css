@@ -10,6 +10,7 @@ body {
 h1 {
 	text-align: center;
 	color: rgb(0, 67, 255);
+	color: red;
 }
 
 h2 {
@@ -29,6 +30,7 @@ p {
 	width: 40em;
 	text-align: center;
 	color: white;
+	color: yellow;
 }
 
 footer {
@@ -61,6 +63,7 @@ a:link {
 /* visited link */
 a:visited {
 	color: rgb(0, 67, 255);
+	color: red; /* will change this for release. this is just for testing*/
 }
 
 /* mouse over link */
