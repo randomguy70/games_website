@@ -28,6 +28,14 @@ p {
 	color: white;
 }
 
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: darkgrey;
+}
+
 #rcorners1 {
 	border-radius: 30px;
 	border: 2px solid rgb(0, 67, 255);
@@ -40,7 +48,6 @@ p {
 
 abbr {
 	font-style: italic;
-	
 }
 
 /* unvisited link */
