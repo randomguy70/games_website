@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background: rgb(0, 0, 0);
+	background: rgb(31, 30, 28);
 	color: rgb(0, 67, 255);
 }
 
@@ -12,13 +12,17 @@ h1 {
 h2 {
 	text-align: center;
 	font-style: italic;
+	color: white;
+}
+
+h3 {
+	font-style: normal;
 	color: rgb(0, 67, 255);
 }
 
 p {
-	text-align: left;
-	color: rgb(0, 67, 255);
-	color: rgb(15, 255, 80);
+	text-align: center;
+	color: white;
 }
 
 abbr {
