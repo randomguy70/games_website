@@ -1,4 +1,7 @@
 body {
+	background-image:url("assets/background.gif");
+	background-repeat: repeat;
+	background-size: cover;
 	text-align: center;
 	background-color: rgb(31, 30, 28);
 	color: rgb(0, 67, 255);
