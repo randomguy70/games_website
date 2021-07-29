@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background: rgb(31, 30, 28);
+	background-color: rgb(31, 30, 28);
 	color: rgb(0, 67, 255);
 }
 
@@ -12,7 +12,7 @@ h1 {
 h2 {
 	text-align: center;
 	font-style: italic;
-	color: white;
+	color: darkgray;
 }
 
 h3 {
@@ -25,6 +25,26 @@ p {
 	margin-right: auto;
 	width: 40em;
 	text-align: center;
+	color: white;
+}
+
+/* the best and funnest parts of CSS have to do with div-like structures */
+/*
+div {
+	width: 300px;
+   border: 2px normal line rgb(0, 67, 255);
+   padding: 10px;
+   margin: auto;
+}
+*/
+
+#rcorners3 {
+	border-radius: 30px;
+	border: 2px solid rgb(0, 67, 255);
+	margin: auto;
+	padding: 10px;
+	width: 350px;
+	height: 150px;
 	color: white;
 }
 
