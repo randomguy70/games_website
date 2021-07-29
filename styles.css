@@ -28,28 +28,19 @@ p {
 	color: white;
 }
 
-/* the best and funnest parts of CSS have to do with div-like structures */
-/*
-div {
-	width: 300px;
-   border: 2px normal line rgb(0, 67, 255);
-   padding: 10px;
-   margin: auto;
-}
-*/
-
-#rcorners3 {
+#rcorners1 {
 	border-radius: 30px;
 	border: 2px solid rgb(0, 67, 255);
 	margin: auto;
 	padding: 10px;
-	width: 350px;
-	height: 150px;
+	width: 400px;
+	height: auto;
 	color: white;
 }
 
 abbr {
 	font-style: italic;
+	
 }
 
 /* unvisited link */
