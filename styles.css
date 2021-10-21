@@ -7,6 +7,14 @@ body {
 	color: rgb(0, 67, 255);
 }
 
+#entry_header {
+	color: darkgray;
+	
+}
+#entry_body {
+	color: white;
+}
+
 h1 {
 	text-align: center;
 	color: rgb(0, 67, 255);
