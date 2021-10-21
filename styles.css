@@ -62,7 +62,7 @@ a:link {
 
 /* visited link */
 a:visited {
-	color: rgb(0, 67, 255);
+	/* color: rgb(0, 67, 255); */
 	color: red; /* will change this for release. this is just for testing*/
 }
 
