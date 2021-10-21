@@ -1,0 +1,55 @@
+body {
+	/* background-image:url("assets/background2.gif"); */
+	/* background-repeat: repeat; */
+	background-size: cover;
+	text-align: center;
+	background-color: rgb(31, 30, 28);
+	color: rgb(0, 67, 255);
+}
+#page-container {
+	position: relative;
+	min-height: 100vh;
+ }
+ 
+#content-wrap {
+	padding-bottom: 2.5rem;    /* Footer height */
+}
+
+h1 {
+	text-align: center;
+	color: rgb(0, 67, 255);
+	color: red;
+}
+
+h2 {
+	text-align: center;
+	font-style: italic;
+	color: darkgray;
+}
+
+h3 {
+	font-style: normal;
+	color: rgb(0, 67, 255);
+}
+
+p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40em;
+	text-align: center;
+	color: white;
+	color: yellow;
+}
+
+footer {
+	color: grey;
+	font-size: small;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+	text-align: center;
+}
+abbr {
+	font-style: italic;
+}
