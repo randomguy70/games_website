@@ -1,7 +1,9 @@
 #entry {
 	display: flex;
+	flex-wrap: wrap;
 }
 #entry_header {
+	text-align: inherit;
 	color: darkgray;
 	font-size: 10;
 	font-size:x-large;
@@ -10,6 +12,7 @@
 	border-radius: 20px;
 }
 #entry_body {
+	text-align: center;
 	border-radius: 20px;
 	border: 1px solid rgb(0, 67, 255);
 	margin: auto;
@@ -23,4 +26,13 @@
 	height: auto;
 	color: white;
 	font-size: larger;
+}
+.entry_row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+.entry_column img {
+	margin-top: 8px;
+	vertical-align: middle;
 }
