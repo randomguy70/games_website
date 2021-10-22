@@ -2,7 +2,6 @@ body {
 	/* background-image:url("assets/background2.gif"); */
 	/* background-repeat: repeat; */
 	background-size: cover;
-	text-align: center;
 	background-color: rgb(31, 30, 28);
 	color: rgb(0, 67, 255);
 }
@@ -16,22 +15,20 @@ body {
 }
 
 h1 {
+	font-size: xx-large;
 	text-align: center;
 	color: rgb(0, 67, 255);
 	color: red;
 }
-
 h2 {
 	text-align: center;
 	font-style: italic;
 	color: darkgray;
 }
-
 h3 {
 	font-style: normal;
 	color: rgb(0, 67, 255);
 }
-
 p {
 	margin-left: auto;
 	margin-right: auto;
@@ -39,6 +36,9 @@ p {
 	text-align: center;
 	color: white;
 	color: yellow;
+}
+.container {
+	display: flex;
 }
 
 footer {
