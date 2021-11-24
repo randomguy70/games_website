@@ -38,8 +38,6 @@ span {
 	margin:0 auto;
 	font-size: x-large;
 	color: gray;
-	border-radius: 15px;
-	border: 1px solid rgb(0, 67, 255);
 	width: max-content;
 	margin: auto;
 	padding: 10px;
@@ -75,7 +73,6 @@ p {
 }
 
 img {
-	border-radius: 20;
 	float: center;
 }
 
