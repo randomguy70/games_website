@@ -10,6 +10,8 @@
 }
 #entry_image {
 	border-radius: 20px;
+	width: 250px;
+	height: 250px;
 }
 #entry_body {
 	text-align: center;
@@ -18,7 +20,7 @@
 	margin: auto;
 	padding: 10px;
 	min-width: 100px;
-	max-width: 400px;
+	max-width: 300px;
 	width: auto;
 	min-height: 50;
 	max-height: 200;

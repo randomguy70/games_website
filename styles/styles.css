@@ -5,10 +5,12 @@ body {
 	background-color: rgb(31, 30, 28);
 	color: rgb(0, 67, 255);
 }
+
 #page-container {
 	position: relative;
 	min-height: 100vh;
 }
+
  .flex-container {
 	align-items: center;
 	justify-content: center;
@@ -16,11 +18,13 @@ body {
 	flex-direction: wrap;
 	flex-flow: row wrap;
 }
+
 .flex-container > div {
-	width: 29%;
-	margin: 30px;
+	width: 30%;
+	margin: 10px;
 	text-align: center;
 }
+
 #content-wrap {
 	padding-bottom: 2.5rem;    /* Footer height */
 }
@@ -32,7 +36,7 @@ div {
 span {
 	display:table;
 	margin:0 auto;
-	font-size: xx-large;
+	font-size: x-large;
 	color: gray;
 	border-radius: 15px;
 	border: 1px solid rgb(0, 67, 255);
@@ -54,10 +58,12 @@ h2 {
 	/* color: darkgray; */
 	color: #39FF14
 }
+
 h3 {
 	font-style: normal;
 	color: rgb(0, 67, 255);
 }
+
 p {
 	/* margin-left: auto; */
 	/* margin-right: auto; */
@@ -66,6 +72,11 @@ p {
 	color: white;
 	color: yellow;
 	flex: 1;
+}
+
+img {
+	border-radius: 20;
+	float: center;
 }
 
 footer {
@@ -77,6 +88,7 @@ footer {
 	height: 2.5rem;
 	text-align: center;
 }
+
 abbr {
 	font-style: italic;
 }
