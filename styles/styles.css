@@ -76,6 +76,10 @@ img {
 	float: center;
 }
 
+a {
+	color: blue;
+}
+
 footer {
 	color: grey;
 	font-size: small;
