@@ -1,20 +1,24 @@
 /* unvisited link */
 a:link {
 	color: red;
+	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
 	/* color: rgb(0, 67, 255); */
-	color: red; /* will change this for release. this is just for testing*/
+	color: orange;
+	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-	color: rgb(0, 67, 255);
+	color: orange;
+	text-decoration: none;
 }
 
 /* selected link */
 a:active {
-	color: rgb(0, 67, 255);
+	color: blue;
+	text-decoration: none;
 }

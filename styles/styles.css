@@ -6,10 +6,6 @@ body {
 	color: rgb(0, 67, 255);
 }
 
-.title-image {
-	text-align:center;
-}
-
 #page-container {
 	position: relative;
 	min-height: 100vh;
@@ -30,54 +26,33 @@ body {
 }
 
 #content-wrap {
-	padding-bottom: 2.5rem;    /* Footer height */
+	padding-bottom: 2.5rem;    /* Footer height from bottom*/
 }
 
 div {
+	text-decoration: none;
 	float: center;
-}
-
-span {
-	display:table;
-	margin:0 auto;
-	font-size: x-large;
-	color: gray;
-	width: max-content;
-	margin: auto;
-	padding: 10px;
 }
 
 h1 {
 	font-size: 24;
 	text-align: center;
-	color: rgb(0, 67, 255);
-	color: red;
-}
-h2 {
-	text-align: center;
-	font-style: italic;
-	font-size: 25;
-	/* color: darkgray; */
-	color: #39FF14
+	color: blue;
+	/* color: red; */
 }
 
-h3 {
-	font-style: normal;
-	color: rgb(0, 67, 255);
+h2 {
+	text-align: center;
+	font-size: x-large;
+	color: gray;
 }
 
 p {
-	/* margin-left: auto; */
-	/* margin-right: auto; */
 	width: 40em;
 	text-align: center;
 	color: white;
 	color: yellow;
 	flex: 1;
-}
-
-a {
-	color: blue;
 }
 
 footer {
