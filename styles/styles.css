@@ -6,6 +6,10 @@ body {
 	color: rgb(0, 67, 255);
 }
 
+.title-image {
+	text-align:center;
+}
+
 #page-container {
 	position: relative;
 	min-height: 100vh;
@@ -70,10 +74,6 @@ p {
 	color: white;
 	color: yellow;
 	flex: 1;
-}
-
-img {
-	float: center;
 }
 
 a {
