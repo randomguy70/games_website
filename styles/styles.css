@@ -1,32 +1,9 @@
 body {
-	/* background-image:url("assets/background2.gif"); */
+	/* background-image: url('../assets/background2.gif'); */
 	/* background-repeat: repeat; */
 	background-size: cover;
 	background-color: rgb(31, 30, 28);
 	color: rgb(0, 67, 255);
-}
-
-#page-container {
-	position: relative;
-	min-height: 100vh;
-}
-
- .flex-container {
-	align-items: center;
-	justify-content: center;
-	display: flex;
-	flex-direction: wrap;
-	flex-flow: row wrap;
-}
-
-.flex-container > div {
-	width: 30%;
-	margin: 10px;
-	text-align: center;
-}
-
-#content-wrap {
-	padding-bottom: 2.5rem;    /* Footer height from bottom*/
 }
 
 div {
@@ -53,6 +30,10 @@ p {
 	color: white;
 	color: yellow;
 	flex: 1;
+}
+
+#content-wrap {
+	padding-bottom: 2.5rem;    /* Footer height from bottom*/
 }
 
 footer {
