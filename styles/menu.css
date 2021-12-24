@@ -1,5 +1,5 @@
 .main-menu {
-	width: 15%;
+	width: 12%;
 	height: 100vh;
 	
 	background-color: #181818;
@@ -41,6 +41,7 @@
 }
 
 .logo span {
+	font-family: font-file-82132;
 	color: #fff;
 	margin-top: 1px;
 	font-size: 1.5rem;
@@ -61,7 +62,7 @@
 	text-align: center;
 	width: 100%;
 	display: block;
-	font-size: 1.6rem;
+	font-size: 150%;
 	color: #909096;
 	line-height: 5rem;
 	border-bottom: 1px solid #282828;	
@@ -69,5 +70,5 @@
 
 .main-menu-nav a:hover {
 	color: #08fdd8;
-	transition: color .5s,background-color .5s;
+	transition: color .3s,background-color .3s;
 }
