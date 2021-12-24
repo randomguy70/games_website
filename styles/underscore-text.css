@@ -8,7 +8,7 @@ body {
 .console-container {
 	font-family: 'Inconsolata', monospace;
 	font-size:xx-large;
-	height: auto;
+	height: 300px;
 	width: 80%;
 	display:block;
 	color:white;
