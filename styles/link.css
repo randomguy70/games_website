@@ -1,6 +1,6 @@
 /* unvisited link */
 a:link {
-	color: red;
+	color: #909096;
 	text-decoration: none;
 }
 
@@ -13,7 +13,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-	color: orange;
+	color: #08fdd8;
 	text-decoration: none;
 }
 

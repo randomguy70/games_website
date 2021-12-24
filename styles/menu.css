@@ -36,6 +36,14 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	
+	color: #909096;
+}
+
+.logo span {
+	color: #fff;
+	margin-top: 1px;
+	font-size: 1.5rem;
 }
 
 .main-menu-nav {
@@ -56,7 +64,10 @@
 	font-size: 1.6rem;
 	color: #909096;
 	line-height: 5rem;
-	border-bottom: 1px solid #282828;
-	
-	transition: color .3s,background-color .3s;
+	border-bottom: 1px solid #282828;	
+}
+
+.main-menu-nav a:hover {
+	color: #08fdd8;
+	transition: color .5s,background-color .5s;
 }

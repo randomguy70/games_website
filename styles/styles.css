@@ -48,3 +48,11 @@ footer {
 abbr {
 	font-style: italic;
 }
+
+span {
+	color: #a5a5a5;
+	font-size: 1.2rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
