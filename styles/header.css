@@ -1,0 +1,13 @@
+.header {
+	width: 80%;
+	
+	background-color: #6A6C6E;
+	
+	align-self: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.header span {
+	color: red;
+}

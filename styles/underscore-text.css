@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+	background: #111;
+}
+.hidden {
+	opacity:0;
+}
+.console-container {
+	font-family:Khula;
+	font-size:xx-large;
+	height:200px;
+	width:600px;
+	display:block;
+	color:white;
+	margin:auto;
+}
+
+.console-underscore {
+	display:inline-block;
+	position:relative;
+}
