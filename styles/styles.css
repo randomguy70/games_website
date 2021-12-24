@@ -50,10 +50,8 @@ abbr {
 }
 
 span {
-	text-align: center;
 	align-items: center;
-	
 	color: #a5a5a5;
 	font-size: 5rem;
-	/* margin-top: 1rem; */
+	margin: 0;
 }

@@ -1,11 +1,12 @@
 .header {
 	width: 80%;
 	
-	background-color: #6A6C6E;
+	background-color: #1073d6;
 	
 	align-self: center;
 	justify-content: center;
 	align-items: center;
+	z-index: 1;
 }
 
 .header span {
