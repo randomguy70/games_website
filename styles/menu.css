@@ -23,11 +23,15 @@
 
 .main-menu-top {
 	width: 100%;
+	height: 20%;
 	
 	background: #000;
 	
 	display: flex;
+	flex-direction: column;
+	
 	justify-content: center;
+	align-items: center;
 	padding: 2 rem 0;
 }
 
@@ -40,10 +44,18 @@
 	color: #909096;
 }
 
+.main-menu-top span {
+	text-align: center;
+	
+	color: #a5a5a5;
+	font-size: .8rem;
+	margin-top: 1rem;
+}
+
 .logo span {
 	font-family: font-file-82132;
 	color: #fff;
-	margin-top: 1px;
+	margin-top: 1rem;
 	font-size: 1.5rem;
 }
 
