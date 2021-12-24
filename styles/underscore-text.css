@@ -9,11 +9,12 @@ body {
 	font-family: 'Inconsolata', monospace;
 	font-size:xx-large;
 	height: auto;
-	width: 100%;
+	width: 80%;
 	display:block;
 	color:white;
 	margin:auto;
 	text-align: center;
+	align-self: right;
 }
 
 .console-underscore {
