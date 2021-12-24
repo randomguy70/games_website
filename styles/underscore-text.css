@@ -8,11 +8,12 @@ body {
 .console-container {
 	font-family: 'Inconsolata', monospace;
 	font-size:xx-large;
-	height:200px;
-	width:600px;
+	height: auto;
+	width: 100%;
 	display:block;
 	color:white;
 	margin:auto;
+	text-align: center;
 }
 
 .console-underscore {
