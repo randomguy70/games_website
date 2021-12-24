@@ -1,3 +1,7 @@
+a {
+	position: relative;
+}
+
 /* unvisited link */
 a:link {
 	color: #909096;
