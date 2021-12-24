@@ -1,5 +1,5 @@
 .main-menu {
-	width: 13rem;
+	width: 15%;
 	height: 100vh;
 	
 	background-color: #181818;
@@ -31,6 +31,13 @@
 	padding: 2 rem 0;
 }
 
+.logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .main-menu-nav {
 	width: 100%;
 	
@@ -51,13 +58,5 @@
 	line-height: 5rem;
 	border-bottom: 1px solid #282828;
 	
-	transition: color .3s,background-color .3s;
-}
-
-.main-menu-entry {
-	text-align: center;
-	width: 100%;
-	display: block;
-	border-bottom: 1px solid #282828;
 	transition: color .3s,background-color .3s;
 }
