@@ -115,6 +115,8 @@
 	
 	align-items: center;
 	justify-content: center;
+	
+	list-style-type: none;
 }
 
 .social ul {
@@ -123,11 +125,8 @@
 	padding: 0;
 }
 
-.social a {
-	padding: 2rem;
-}
-
-.social img {
-	width: 24;
-	height: 24;
+social li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
