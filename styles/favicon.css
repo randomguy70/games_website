@@ -1,0 +1,9 @@
+.github-favicon {
+	width: 24px;
+	height: 24px;
+	background: url("/assets/github-favicon.png") no-repeat;
+	margin: 0;
+}
+.github-favicon:hover {
+	background: url("/assets/github-favicon-hover.png") no-repeat;
+}

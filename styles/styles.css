@@ -2,11 +2,11 @@ body {
 	background-size: cover;
 	background-color: rgb(31, 30, 28);
 }
-
+/* 
 div {
 	text-decoration: none;
 	float: center;
-}
+} */
 
 h1 {
 	font-size: 24;
@@ -51,4 +51,11 @@ span {
 	color: #a5a5a5;
 	font-size: 5rem;
 	margin: 0;
+}
+
+.github-favicon {
+	background: url("/assets/github-favicon.png");
+}
+.github-favicon:hover {
+	background: url("/assets/github-favicon-hover.png") no-repeat;
 }
