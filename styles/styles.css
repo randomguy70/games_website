@@ -1,12 +1,12 @@
 body {
 	background-size: cover;
 	background-color: rgb(31, 30, 28);
+	
+	min-width: 300px;
+	min-height: 400px;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
-/* 
-div {
-	text-decoration: none;
-	float: center;
-} */
 
 h1 {
 	font-size: 24;
