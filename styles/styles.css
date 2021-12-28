@@ -2,8 +2,8 @@ body {
 	background-size: cover;
 	background-color: rgb(31, 30, 28);
 	
-	min-width: 300px;
-	min-height: 400px;
+	min-width: 500px;
+	min-height: 600px;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
