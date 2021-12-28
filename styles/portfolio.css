@@ -1,6 +1,8 @@
 .project-menu {
-	width: auto;
-	right: 20%;
+	/* width: 88vw; */
+	/* margin-left: 12%; */
+	/* margin-right: 0; */
+	align-self: center;
 	align-items: center;
 	justify-content: center;
 	display: flex;
@@ -9,7 +11,7 @@
 }
 
 .project {
-	width: 10rem;
+	/* width: 10rem; */
 	height: 10rem;
 	padding: 20px;
 	
