@@ -1,13 +1,21 @@
 #page-container {
-	width: 80%;
-	align-items: center;
-	margin-left: 10%;
-	margin-right: auto;
+	width: auto;
+	height: auto;
+	
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	
+	align-items: right;
 	position: relative;
 	min-height: 100vh;
+	
+	/* display: flex; */
+	/* flex-direction: row; */
 }
 
- .flex-container {
+.flex-container {
 	align-items: center;
 	justify-content: center;
 	display: flex;
@@ -16,7 +24,6 @@
 }
 
 .flex-container > div {
-	width: 30%;
-	margin: 10px;
+	width: 25%;
 	text-align: center;
 }
