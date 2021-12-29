@@ -14,9 +14,9 @@
 
 .project {
 	width: 23%;
-	height: 28.75%;
-	min-width: 120px;
-	min-height: 150px;
+	height: 25%;
+	/* min-width: 120px; */
+	/* min-height: 150px; */
 	
 	padding: 1%;
 	
@@ -65,5 +65,6 @@
 }
 
 .project:hover > span {
+	cursor: pointer;
 	opacity: 1.0;
 }
