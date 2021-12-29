@@ -1,4 +1,4 @@
-# <center> Randomguy's home site </center>
+# <p align="center"> Randomguy's home site </p>
 
 ## I coded this website from scratch in HTML, CSS, and (a little) JS. However, I took inspiration from several expertly done sites and used some publicly available JS for small things such as the [terminal text animation](https://github.com/randomguy70/games_website/blob/cf7befaf2b50c446ad38d17b4d52ed5ef38f3ad0/scripts/underscore_text.js#L1). 
 
