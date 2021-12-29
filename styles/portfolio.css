@@ -13,12 +13,16 @@
 }
 
 .project {
-	width: 25%;
-	height: 250px;
-	min-width: 120px;
-	max-width: 260px;
+	width: 300px;
+	height: 300px;
 	
-	padding: 1%;
+	min-width: 120px;
+	min-height: 120px;
+	max-width: 500px;
+	max-height: 500px;
+	
+	padding: 0;
+	margin: 1%;
 	
 	display:table;
 	
@@ -45,16 +49,11 @@
 
 /* should have width:height ratio of 4:5 */
 .project > img {
-	width: auto;
+	width: 100%;
 	height: 100%;
 	
 	min-width: 120px;
 	min-height: 150px;
-	
-	left: 0;
-	right: 0;
-	top:0;
-	bottom: auto;
 	
 	opacity: 1.0;
 	border-radius: 5px;
@@ -67,7 +66,7 @@
 }
 
 .project > span {	
-	width: 100%;
+	width: 50%;
 	
 	font-family: 'Fira Code', monospace;
 	
