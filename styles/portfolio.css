@@ -5,8 +5,8 @@
 	/* margin-left: 12%; */
 	/* margin-right: 0; */
 	align-self: center;
-	align-items: left;
-	justify-content: left;
+	align-items: center;
+	justify-content: center;
 	display: flex;
 	flex-direction: wrap;
 	flex-flow: row wrap;
@@ -15,18 +15,33 @@
 .project {
 	width: 23%;
 	height: 25%;
-	/* min-width: 120px; */
-	/* min-height: 150px; */
+	min-width: 120px;
+	min-height: 150px;
+	max-width: 260px;
+	max-height: 750;
 	
-	padding: 1%;
+	/* padding: 1%; */
+	
+	float: left;
+	
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 	
 	align-self: center;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	
-	position: relative;
+	position: relative;	
 }
+
+/* .project:hover { */
+	/* border-style: inset;
+	border-width: 2px;
+	border-color: blue;	 */
+/* } */
 
 /* should have width:height ratio of 4:5 */
 .project > img {
@@ -53,7 +68,6 @@
 	position: absolute;
 	bottom: 0;
 	right: 50%;
-	margin-bottom: 10%;
 	
 	color: black;
 	font-size: 1.5rem;
