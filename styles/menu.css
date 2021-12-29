@@ -1,3 +1,10 @@
+@import url('/assets/fonts/atmospheric-font.ttf');
+
+@font-face {
+	font-family: 'Atmospheric';
+		src: url('/assets/fonts/atmospheric-font.ttf') format('truetype');
+}
+
 .main-menu {
 	width: 12vw;
 	height: 100vh;
@@ -72,16 +79,17 @@
 }
 
 .main-menu-nav a {
+	font-family: 'Atmospheric';
+	font-size: 120%;
+	
 	position: relative;
 	text-align: center;
 	width: 100%;
 	display: block;
-	font-size: 150%;
 	color: #909096;
 	line-height: 5rem;
 	border-bottom: 1px solid #282828;	
 }
-
 
 .main-menu-nav a::before {
 	content: "";
