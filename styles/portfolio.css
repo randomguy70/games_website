@@ -18,8 +18,8 @@
 	/* height: 25%; */
 	padding-top: 100%;
 	
-	min-width: 120px;
-	min-height: 120px;
+	min-width: 150px;
+	min-height: 150px;
 	max-width: 500px;
 	max-height: 500px;
 	
@@ -28,7 +28,7 @@
 	
 	/* display: table; */
 	
-	float: left;
+	float: center;
 	
 	align-self: center;
 	align-items: center;
@@ -49,8 +49,8 @@
 	width: 100%;
 	height: 100%;
 	
-	min-width: 120px;
-	min-height: 150px;
+	/* min-width: 120px; */
+	/* min-height: 150px; */
 	
 	opacity: 1.0;
 	border-radius: 5px;
@@ -64,6 +64,7 @@
 
 .project > span {	
 	width: 100%;
+	height: 15%;
 	
 	font-family: 'Fira Code', monospace;
 	
@@ -73,9 +74,12 @@
 	display: table-cell;
 	vertical-align:middle;
 	justify-content:center;
-	bottom: 15%;
+	bottom: 1%;
 	
-	color: black;
+	color: white;
+	background-color: #242424;
+	border-radius: 5px;
+	
 	font-size: 1.5rem;
 	opacity: 0;
 	
@@ -86,5 +90,5 @@
 
 .project:hover > span {
 	cursor: pointer;
-	opacity: 1.0;
+	opacity: .75;
 }
