@@ -1,9 +1,9 @@
-.about-page-container {
+.about-octagon-menu {
 	width: 88vw;
 	margin-left: 12%;
 	margin-right: 0;
 	
-	align-self: right;
+	align-self: center;
 	align-items: center;
 	justify-content: center;
 	display: flex;
@@ -12,3 +12,24 @@
 	position: relative;
 }
 
+.header {
+	width: 100%;
+	height: 20vh;
+	
+	display: block;
+	
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.header > img {
+	width: 100px;
+	height: 100px;
+}
+
+.author-name {
+	
+	color: #08fdd8;
+}
