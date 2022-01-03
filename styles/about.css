@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Gidolinya';
+	src: url('/assets/fonts/gidolinya.regular.ttf') format('truetype');
+}
+
 .about-octagon-menu {
 	width: 88vw;
 	margin-left: 12%;
@@ -31,19 +36,25 @@
 }
 
 .header > p {
-	align-self: center;
-	width: 50%;
-	color: #798aa8;
-	border-radius: 7px;
-	background-color: rgb(25, 30, 35);
-	border: 1px solid rgb(52, 58, 69);
+	width: 100%;
 	
+	position: relative;
+	
+	margin: 0;
+	padding: 0px;
+	
+	color: #b0b9ca;
+	font-family: 'Gidolinya';
+	font-size: 1.3rem;
+	
+	border-radius: 7px;
+	/* background-color: rgb(25, 30, 35); */
+	border: 1px solid rgb(52, 58, 69);
 }
 
 .author-name {
+	width: 100%;
+	font-size: xx-large;
+	text-align: center;
 	color: #08fdd8;
-}
-
-.about-author {
-	color: rgb(93, 94, 97);
 }

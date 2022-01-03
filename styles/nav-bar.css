@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Atmospheric';
-		src: url('/assets/fonts/atmospheric-font.ttf') format('truetype');
+	src: url('/assets/fonts/atmospheric-font.ttf') format('truetype');
 }
 
 .main-menu {

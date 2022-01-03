@@ -1,20 +1,3 @@
-#page-container {
-	width: auto;
-	height: auto;
-	
-	right: 0;
-	left: 0;
-	top: 0;
-	bottom: 0;
-	
-	/* align-items: right; */
-	position: relative;
-	min-height: 100vh;
-	
-	/* display: flex; */
-	/* flex-direction: row; */
-}
-
 .flex-container {
 	align-items: center;
 	justify-content: center;
@@ -29,10 +12,17 @@
 }
 
 .main {
+	width: 88vw;
+	height: 100vh;
+	
+	position: relative;
+	
 	margin-left: 12vw;
 	margin-right: 0;
 	padding: 0;
+	
 	align-self: center;
 	align-items: center;
 	justify-content: center;
+	
 }
