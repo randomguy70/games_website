@@ -24,10 +24,19 @@
 	text-align: center;
 }
 
+/* this header should be inside of a link (<a>), but I added CSS in case it wasn't in a link for some reason */
 .text-box header {
 	font-family: 'Kabrio';
 	width: 100%;
-	font-size: xx-large;
+	font-size: 2.5rem;
+	text-align: center;
+	color: #08fdd8;
+}
+
+.text-box a header {
+	font-family: 'Kabrio';
+	width: 100%;
+	font-size: 2.5rem;
 	text-align: center;
 	color: #08fdd8;
 }
@@ -87,17 +96,21 @@
 .menu .menu-entry header {
 	color: #08fdd8;
 	font-family: 'Atmospheric';
-	font-size: 100%;
+	font-size: 1rem;
 }
 
 .menu .menu-entry p {
 	width: 20%;
 	height: 100%;
+	
+	font-family: 'Gidolinya';
 }
 
 .menu .menu-entry ul {
 	text-align: left;
 	color: #b0b9ca;
+	
+	font-family: 'Gidolinya';
 	font-size: 1.3rem;
 }
 
