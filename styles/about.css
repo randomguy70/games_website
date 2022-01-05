@@ -16,38 +16,72 @@
 	width: 100%;
 	height: 30%;
 	
+	display: inline-block;
+	
 	margin: 0;
 	margin-top: 5%;
 	padding-left: 30%;
 	padding-right: 30%;
 	
-	text-align: center;
+	display: flex;
+	flex-direction: column;
 	
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	
+	text-align: center;
 }
 
 /* this header should be inside of a link (<a>), but I added CSS in case it wasn't in a link for some reason */
 .text-box header {
-	font-family: 'Kabrio';
 	width: 100%;
+	
+	display: inline-block;
+	
+	font-family: 'Kabrio';
 	font-size: 2.5rem;
 	text-align: center;
-	color: #08fdd8; /* teal /*
-	/* color: #f01056; */ /* red */
-	/* color: black; */
+	color: #08fdd8; /* teal */
+}
+
+.text-box a {
+	width: 100%;
+		
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	text-align: center;
 }
 
 .text-box a header {
-	font-family: 'Kabrio';
-	width: 100%;
-	font-size: 2.5rem;
+	width: auto;
+		
+	align-self: center;
 	text-align: center;
-	/* color: #08fdd8; */
+	
+	font-family: 'Kabrio';
+	font-size: 2.5rem;
+	
+	color: #08fdd8;
+	
+	border-radius: 10px;
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(2px);
 }
 
 .text-box p {
-	color: #b0b9ca;
+	width: auto;
+	
 	font-family: 'Gidolinya';
 	font-size: 1.3rem;
+	
+	color: #b0b9ca;
+	
+	border-radius: 10px;
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(2px);
 }
 
 .text-box header img{
@@ -100,14 +134,17 @@
 	color: #08fdd8;
 	/* color: #fd1056; */ /* red */
 	font-family: 'Atmospheric';
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
 .menu .menu-entry p {
 	width: 20%;
 	height: 100%;
 	
+	color: #b0b9ca;
+	
 	font-family: 'Gidolinya';
+	font-size: 1.3rem;
 }
 
 .menu .menu-entry ul {	
