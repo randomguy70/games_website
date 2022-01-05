@@ -94,7 +94,8 @@
 }
 
 .menu .menu-entry header {
-	color: #08fdd8;
+	/* color: #08fdd8; */
+	color: #fd1056;
 	font-family: 'Atmospheric';
 	font-size: 1rem;
 }
