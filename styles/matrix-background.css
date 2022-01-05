@@ -1,0 +1,16 @@
+.matrix-background-holder {
+	display: block;
+	position: fixed;
+	width: 88vw;
+	height: 100vh;
+	
+	top: 0;
+	left: 12%;
+	bottom: 0;
+	right: 0;
+}
+
+canvas #matrix-background {
+	display:block;
+   z-index:-1;
+}
