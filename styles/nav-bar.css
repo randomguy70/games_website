@@ -8,8 +8,7 @@
 	height: 100vh;
 	
 	background-color: #181818;
-	opacity: .9;
-	
+		
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -102,7 +101,8 @@
 	content: "";
 	position: absolute;
 	display: block;
-	background-color: #fd1056;
+	/* background-color: #fd1056; */
+	background-color: #FF5F01;
 	transform: scaleX(0);
 	transform-origin: top left;
 	transition: transform 0.3s ease;
@@ -113,8 +113,11 @@
 }
 
 .main-menu-nav a:hover {
-	color: #08fdd8;
-	transition: color .3s,background-color .3s;
+	/* color: #08fdd8; */
+	color: #0F1FA7;
+	background-color: #1f1e1e;;
+	/* transition: color .3s,background-color .3s; */
+	transition: .3s;
 }
 
 .social {
