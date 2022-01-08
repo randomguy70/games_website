@@ -1,4 +1,4 @@
-.matrix-background-holder {
+.background-canvas-holder {
 	display: block;
 	position: fixed;
 	width: 88vw;
@@ -10,7 +10,7 @@
 	right: 0;
 }
 
-canvas #matrix-background {
+.background-canvas-holder #swarm {
 	display:block;
    z-index:-1;
 }
