@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles/styles.css">
 	<link rel="stylesheet" href="styles/entry.css">
-	<link rel="stylesheet" href="styles/link.css">
 	<link rel="stylesheet" href="styles/containers.css">
 	<link rel="stylesheet" href="styles/nav-bar.css">
-	<link rel="stylesheet" href="styles/normal-link.css">
 	<link rel="stylesheet" href="styles/underscore-text.css">
 	<link rel="stylesheet" href="styles/favicon.css">
-	<link rel="stylesheet" href="styles/about.css">
+	<link rel="stylesheet" href="styles/home.css">
 	<link rel="stylesheet" href="styles/background-canvas.css">
-	
+
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="scripts/fluid-background.js"></script>
-	
+
 	<title>Home</title>
 </head>
 
@@ -26,16 +23,16 @@
 	<div class="background-canvas-holder">
 		<canvas id="swarm"></canvas>
 	</div>
-	
+
 	<div id="nav-placeholder"></div>
-	
+
 	<!-- menu bar -->
 	<script>
 	$(function(){
 	  $("#nav-placeholder").load("nav-bar.html");
 	});
 	</script>
-	
+
 	<!-- typing text animation -->
 	<!-- <div id="header">
 		<div class='console-container'>
@@ -45,13 +42,17 @@
 			</div>
 		</div>
 	</div> -->
-	
+
 	<div class="main">
 		<div class="text-box">
-			<!-- <img src="assets/temp-profile-pic.png"> -->
-			<a href="https://github.com/randomguy70" target="_blank"><header>JohnPaul Malloy</header></a>
+			<a href="./contact.html">
+				<header>
+					JohnPaul Malloy
+				</header>
+			</a>
+
 			<p class="about-author">
-				Hello! I'm JP Malloy (alias Randomguy), an intermediate programmer who is eager to learn and seeks to elevate himself to that illustrious station known as being a full stack dev.
+				Hello! I'm JP Malloy (alias <a href="https://github.com/randomguy70" target="_blank">Randomguy70</a>), an intermediate programmer who is eager to learn and seeks to elevate himself to that illustrious station known as being a full stack dev.
 			</p>
 		</div>
 		<div class="menu">

@@ -15,36 +15,39 @@
 .text-box {
 	width: 100%;
 	height: 30%;
-	
+
 	display: inline-block;
-	
+
 	margin: 0;
 	margin-top: 5%;
 	padding-left: 30%;
 	padding-right: 30%;
-	
+
 	display: flex;
 	flex-direction: column;
-	
+
 	justify-items: center;
 	justify-content: center;
 	align-items: center;
-	
+
 	text-align: center;
 }
 
-.text-box a header {
+.text-box a {
+	text-decoration: none;
+}
+
+.text-box header {
 	width: auto;
-		
+
 	align-self: center;
 	text-align: center;
-	
+
 	font-family: 'Kabrio';
 	font-size: 3rem;
-	
-	/* color: #08fdd8; */
+
 	color: white;
-	
+
 	border-radius: 10px;
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(2px);
@@ -52,15 +55,20 @@
 
 .text-box p {
 	width: auto;
-	
+
 	font-family: 'Gidolinya';
 	font-size: 1.5rem;
-	
+
 	color: #b0b9ca;
-	
+
 	border-radius: 10px;
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(2px);
+}
+
+.text-box p a {
+	color: rgb(255, 50, 50);
+	text-decoration: none;
 }
 
 .text-box header img{
@@ -77,35 +85,35 @@
 	grid-auto-rows: 1fr;
 	grid-column-gap: 5%;
 	/* grid-row-gap: 5%; */ /* there is only 1 row */
-	
+
 	width: 100%;
 	height: 30%;
 	margin: 0;
 	margin-top: 6%;
 	padding: 0;
-	
+
 	align-self: center;
 	align-items: center;
 	justify-content: center;
-	
+
 	position: relative;
 }
 
 .menu .menu-entry {
 	width: 100%;
 	height: 100%;
-	
+
 	padding: 4%;
-	
+
 	border: 1px solid rgba(255,255,255,.2);
 	border-left: 5px solid rgba(255,255,255,.2);
-	
+
 	background-color: rgba(100, 100, 130, .3); /* prev */
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(4px);
-	
+
 	text-align: center;
-	
+
 	transition: .3s ease;
 }
 
@@ -113,34 +121,34 @@
 	/* color: #08fdd8; */
 	/* color: #FF5F01; */
 	color: white;
-	
+
 	/* color: #fd1056; */ /* red */
 	font-family: 'Atmospheric';
-	font-size: 1.2rem;	
+	font-size: 1.2rem;
 }
 
 .menu .menu-entry p {
 	width: 20%;
 	height: 100%;
-	
+
 	color: #b0b9ca;
-	
+
 	font-family: 'Gidolinya';
 	font-size: 1.3rem;
-	
+
 	transition: .3s;
 }
 
-.menu .menu-entry ul {	
+.menu .menu-entry ul {
 	text-align: left;
 	color: #b0b9ca;
-	
+
 	list-style: circle;
-	
+
 	font-family: 'Gidolinya';
 	font-size: 1.3rem;
 	padding: 5%;
-	
+
 	transition: .3s;
 }
 

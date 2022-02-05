@@ -1,12 +1,11 @@
 body {
 	background-size: cover;
 	background-repeat: no-repeat;
-	/* background-color: rgb(22, 24, 30); */
 	background-color: rgb(18, 18, 18);
 	
 	min-width: 500px;
 	min-height: 600px;
-	
+
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
