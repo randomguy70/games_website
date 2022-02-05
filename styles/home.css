@@ -67,7 +67,7 @@
 }
 
 .text-box p a {
-	color: rgb(255, 50, 50);
+	color: #006ee6;
 	text-decoration: none;
 }
 
@@ -79,18 +79,19 @@
 .menu {
 	display: grid;
 	grid-auto-flow: row;
-	grid-template-columns: repeat(3, 25%);
-	grid-auto-rows: 1fr;
+	grid-template-columns: repeat(3, 30%);
+	/* grid-auto-rows: 1fr; */
+	grid-auto-rows: 100%;
 	grid-auto-columns: 100px;
-	grid-auto-rows: 1fr;
 	grid-column-gap: 5%;
-	/* grid-row-gap: 5%; */ /* there is only 1 row */
+	grid-row-gap: 5%; /* there is only 1 row though... */
 
 	width: 100%;
 	height: 30%;
 	margin: 0;
 	margin-top: 6%;
-	padding: 0;
+	margin-bottom: 3%;
+	padding: 5%;
 
 	align-self: center;
 	align-items: center;
@@ -108,7 +109,7 @@
 	border: 1px solid rgba(255,255,255,.2);
 	border-left: 5px solid rgba(255,255,255,.2);
 
-	background-color: rgba(100, 100, 130, .3); /* prev */
+	background-color: rgba(100, 100, 130, .3);
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(4px);
 
@@ -118,15 +119,18 @@
 }
 
 .menu .menu-entry header {
-	/* color: #08fdd8; */
-	/* color: #FF5F01; */
-	color: white;
+	width: 100%;
+	height: 10%;
+
+	margin-top: 3%;
+
+	color: #006ee6;
 
 	/* color: #fd1056; */ /* red */
 	font-family: 'Atmospheric';
 	font-size: 1.2rem;
 }
-
+g
 .menu .menu-entry p {
 	width: 20%;
 	height: 100%;
@@ -154,9 +158,11 @@
 
 /* menu animations */
 .menu .menu-entry:hover {
+	width: 104%;
+	height: 104%;
 	border-left: 5px solid rgba(255,255,255, .6);
 	border-bottom: 1px solid rgba(255,255,255, .6);
-	background-color: rgba(100, 100, 140, .75);
+	background-color: rgba(100, 100, 130, .2);;
 }
 .menu .menu-entry:hover p {
 	color: white;

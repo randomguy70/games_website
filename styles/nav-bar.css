@@ -120,7 +120,7 @@
 	/* color: #08fdd8; */
 	color: #006ee6;
 	/* color: rgb(0, 0, 255); */
-	background-color: #1f1e1e;;
+	background-color: rgb(55, 55, 55);
 	transition: color .3s,background-color .3s;
 }
 
