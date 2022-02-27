@@ -49,8 +49,8 @@
 	color: white;
 
 	border-radius: 10px;
-	-webkit-backdrop-filter: blur(5px);
-	backdrop-filter: blur(2px);
+	/* -webkit-backdrop-filter: blur(5px); */
+	/* backdrop-filter: blur(2px); */
 }
 
 .text-box p {
@@ -62,8 +62,8 @@
 	color: #b0b9ca;
 
 	border-radius: 10px;
-	-webkit-backdrop-filter: blur(5px);
-	backdrop-filter: blur(2px);
+	/* -webkit-backdrop-filter: blur(5px); */
+	/* backdrop-filter: blur(2px); */
 }
 
 .text-box p a {
@@ -136,27 +136,23 @@
 .menu .menu-entry p {
 	width: 20%;
 	height: 100%;
-
+	
 	/* color: #b0b9ca; */
 	color: white;
-
+	
 	font-family: 'Gidolinya';
-	font-size: 1.3rem;
-
-	transition: .3s;
+	font-size: 1.3rem;	
 }
 
 .menu .menu-entry ul {
 	text-align: left;
 	color: #b0b9ca;
-
+	
 	list-style: circle;
-
+	
 	font-family: 'Gidolinya';
 	font-size: 1.3rem;
 	padding: 5%;
-
-	transition: .3s;
 }
 
 /* menu animations */

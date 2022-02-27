@@ -120,7 +120,8 @@
 
 .main-menu-nav a:hover {
 	/* color: #08fdd8; */
-	color: #006ee6;
+	/* color: #006ee6; */
+	color: rgb(34, 104, 224);
 	/* color: rgb(0, 0, 255); */
 	background-color: rgb(55, 55, 55);
 	transition: color .3s,background-color .3s;

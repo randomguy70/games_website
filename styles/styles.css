@@ -3,9 +3,12 @@ body {
 	background-repeat: no-repeat;
 	/* background-color: rgb(45, 45, 45); */
 	background-image:url(/assets/dark-polygon-1.png);
+	background-attachment: fixed;
 
 	min-width: 500px;
+	max-width: 100%;
 	min-height: 600px;
+	max-height: 100%;
 
 	overflow-y: scroll;
 	overflow-x: hidden;
