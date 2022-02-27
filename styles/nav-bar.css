@@ -6,10 +6,12 @@
 .main-menu {
 	width: 12vw;
 	height: 100vh;
-	
+		
 	/* background-color: #181818; */
 	/* background-color: #292929; */
-	background-color: rgba(0, 0, 0, .5);
+	/* background-color: rgba(0, 0, 0, .6); */
+	background-color: rgba(0, 0, 255, .6);
+	outline:2px solid grey;
 	opacity: .7;
 	
 	position: fixed;
