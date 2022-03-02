@@ -29,7 +29,7 @@
 	justify-items: center;
 	justify-content: center;
 	align-items: center;
-
+	
 	text-align: center;
 }
 
@@ -39,15 +39,15 @@
 
 .text-box header {
 	width: auto;
-
+	
 	align-self: center;
 	text-align: center;
-
+	
 	font-family: 'Kabrio';
 	font-size: 3rem;
-
+	
 	color: white;
-
+	
 	border-radius: 10px;
 	/* -webkit-backdrop-filter: blur(5px); */
 	/* backdrop-filter: blur(2px); */
@@ -55,15 +55,13 @@
 
 .text-box p {
 	width: auto;
-
+	
 	font-family: 'Gidolinya';
 	font-size: 1.5rem;
-
+	
 	color: #b0b9ca;
 
 	border-radius: 10px;
-	/* -webkit-backdrop-filter: blur(5px); */
-	/* backdrop-filter: blur(2px); */
 }
 
 .text-box p a {
@@ -127,7 +125,6 @@
 	
 	color: white;
 	
-	/* color: #fd1056; */ /* red */
 	font-family: 'Atmospheric';
 	font-size: 1.2rem;
 }
@@ -140,7 +137,7 @@
 	color: white;
 	
 	font-family: 'Gidolinya';
-	font-size: 1.3rem;	
+	font-size: 1.5rem;	
 }
 
 .menu .menu-entry ul {
@@ -150,7 +147,7 @@
 	list-style: circle;
 	
 	font-family: 'Gidolinya';
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	padding: 5%;
 }
 
