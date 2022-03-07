@@ -53,8 +53,13 @@
 	/* backdrop-filter: blur(2px); */
 }
 
-.text-box p {
-	width: auto;
+.text-box #about-me-typing-effect {
+	width: 100%;
+	height: 30%;
+	
+	margin-top: 5%;
+	margin-bottom: 0;
+	padding: 0;
 	
 	font-family: 'Gidolinya';
 	font-size: 1.5rem;
@@ -98,19 +103,30 @@
 	position: relative;
 }
 
+.menu .menu-entry-gradient-border-container {
+	width: 100%;
+	height: 100%;
+	
+	margin: 0;
+	padding: 0;
+	
+	background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(0, 0, 255));
+}
+
 .menu .menu-entry {
 	width: 100%;
 	height: 100%;
 	
-	margin: 5%;
+	margin: 0;
+	
 	padding: 5%;
 	
 	background-color: rgba(0, 0, 0, .5);
 	border-top:2px solid rgb(34, 104, 224);
 	
 	opacity: .7;
-	/* -webkit-backdrop-filter: blur(10px);
-	backdrop-filter: blur(4px); */
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
 	
 	text-align: center;
 	
