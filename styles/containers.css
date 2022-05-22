@@ -12,13 +12,12 @@
 }
 
 .main {
-	/* width: 86.58vw; should be 88%, but there is some mysterious padding that appears between the nav-bar and main div */
+	/* BTW:  There is some mysterious padding that appears between the nav-bar and main div */
 	width: 88vw !important;
 	min-height: 100vh !important;
 		
 	position:relative;
 	
-	/* top: 0 ; */
 	left: 12vw !important;
 	right:0 !important;
 	margin-left: 0 !important;
