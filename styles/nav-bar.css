@@ -106,7 +106,7 @@
 	margin-bottom: 5%;
 	
 	font-family: 'Atmospheric';
-	font-size: 100%;
+	font-size: 1rem;
 	
 	position: relative;
 	text-align: center !important;
@@ -115,10 +115,12 @@
 	text-decoration: none;
 	
 	line-height: 5rem;
+	
+	transition: .3s ease;
 }
 
 .nav-bar-menu-option:hover {
-	/* background-image: linear-gradient(to left, rgb(0, 0, 25) , rgb(0, 0, 255)); */
+	
 }
 
 .nav-bar-menu-option:before {
@@ -142,6 +144,7 @@
 	width: 100%;
 	height: 10rem;
 	padding: 0;
+	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
 
