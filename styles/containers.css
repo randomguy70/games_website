@@ -15,7 +15,6 @@
 	flex-direction: wrap;
 	flex-flow: row wrap;
 	
-	/* -webkit-box-align: center; */
 	-webkit-box-pack: justify;
 	justify-content: space-between;
 	align-self: center !important;
