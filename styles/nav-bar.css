@@ -152,7 +152,7 @@
 }
 
 .social {
-	width: 100%;
+	width: auto;
 	height: 10rem;
 	padding: 0;
 	margin: 0;
@@ -165,14 +165,18 @@
 	list-style-type: none;
 }
 
-.social ul {
+.social li {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-.social li {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+.social .favicon {
+	width: 24px;
+	height: 24px;
+	
+	margin-left: .5vw;
+	margin-right: .5vw;
+	margin-top: 0;
+	margin-bottom: 0;
 }

@@ -13,9 +13,10 @@
 
 .main {
 	/* BTW:  There is some mysterious padding that appears between the nav-bar and main div */
-	width: 88vw !important;
+	width: 88% !important;
+	height: 1vh;
 	min-height: 100vh !important;
-		
+	
 	position:relative;
 	
 	left: 12vw !important;
