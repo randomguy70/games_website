@@ -1,41 +1,24 @@
-.flex-container {
-	align-items: center;
-	justify-content: center;
-	display: flex;
-	flex-direction: wrap;
-	flex-flow: row wrap;
-}
-
-.flex-container > div {
-	width: 25%;
-	text-align: center;
-}
-
 .main {
-	/* BTW:  There is some mysterious padding that appears between the nav-bar and main div */
-	width: 88% !important;
-	height: 1vh;
+	width: 86vw !important;
+	height: 100%;
 	min-height: 100vh !important;
 	
-	position:relative;
+	position: absolute;
 	
-	left: 12vw !important;
-	right:0 !important;
-	margin-left: 0 !important;
-	margin-right: 0 !important;
-	margin-top: 0 !important;
-	margin-bottom: 0 !important;
+	left: 14vw !important;
+	right: 0 !important;
 	
+	margin: 0 !important;
 	padding: 0 !important;
 	
 	display: flex;
 	flex-direction: wrap;
 	flex-flow: row wrap;
 	
-	-webkit-box-align: center;
+	/* -webkit-box-align: center; */
 	-webkit-box-pack: justify;
 	justify-content: space-between;
 	align-self: center !important;
-	align-items: center !important;
-	justify-content: center !important;
+	/* align-items: center !important; */
+	/* justify-content: center !important; */
 }
