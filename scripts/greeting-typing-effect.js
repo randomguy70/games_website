@@ -26,18 +26,31 @@ function typeGreeting()
 	{
 		var char = greetingTxt[i];
 		
-		if(char === " ") {speed = 0}
-		else if(char === "!" || char === ".") {speed = 750}
-		else {speed = 70}
+		if(char === " ")
+		{
+			speed = 0
+		}
+		else if(char === "!" || char === ".")
+		{
+			speed = 750
+		}
+		else
+		{
+			speed = 70
+		}
 		
 		greetingDiv.innerHTML += char;
 		i++;
-		setTimeout(typeGreeting, speed);
-	}
-	else
-	{
-		i = 0;
-		typeName();
+		
+		if(i === greetingTxt.length)
+		{
+			i = 0;
+			typeName();
+		}
+		else
+		{
+			setTimeout(typeGreeting, speed);
+		}
 	}
 }
 
